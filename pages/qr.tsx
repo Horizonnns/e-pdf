@@ -4,10 +4,20 @@ export default function QRPage() {
   const url = "https://eshahodatnoma.uz/document.pdf";
 
   return (
-    <div style={{ padding: 40 }}>
-      <h1>QR-код для доступа к PDF</h1>
+    <div
+      style={{
+        width: "100%",
+        height: "100vh",
+        display: "flex",
+        alignItems: "center",
+        flexDirection: "column",
+        justifyContent: "center",
+      }}
+    >
       <QRCode value={url} size={256} />
-      <p>Отсканируйте код, чтобы открыть PDF.</p>
+      <p style={{ fontSize: 16, color: "#aaa" }}>
+        Отсканируйте код, чтобы открыть PDF.
+      </p>
     </div>
   );
 }
