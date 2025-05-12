@@ -1,7 +1,7 @@
 import QRCode from "react-qr-code";
 
-export default function QRPage() {
-  const url = "https://eshahodatnoma.com/document.pdf";
+export default function ShahodatnomaQRPage() {
+  const url = "https://eshahodatnoma.com/shahodatnoma.pdf";
 
   return (
     <div
