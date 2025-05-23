@@ -8,15 +8,16 @@ export default function NoterQRPage() {
       style={{
         width: "100%",
         height: "100vh",
-        display: "flex",
+        display: "flex",        
         alignItems: "center",
+        gap: '50px',
         flexDirection: "column",
         justifyContent: "center",
       }}
     >
-      <QRCode value={url} size={256} />
+      <QRCode value={url} size={512} level="H" />
       <p style={{ fontSize: 16, color: "#aaa" }}>
-        Отсканируйте код, чтобы открыть PDF.
+        Scan qr-code
       </p>
     </div>
   );

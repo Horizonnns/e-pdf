@@ -14,9 +14,9 @@ export default function ApostilleQRPage() {
         justifyContent: "center",
       }}
     >
-      <QRCode value={url} size={256} />
+      <QRCode value={url} size={512} level="H" />
       <p style={{ fontSize: 16, color: "#aaa" }}>
-        Отсканируйте код, чтобы открыть PDF.
+        Scan QR code
       </p>
     </div>
   );
