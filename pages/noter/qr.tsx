@@ -1,7 +1,7 @@
 import QRCode from "react-qr-code";
 
 export default function NoterQRPage() {
-  const url = "https://eshahodatnoma.com/noter.pdf";
+  const url = "https://eshahodatnoma.com/notarius.pdf";
 
   return (
     <div
